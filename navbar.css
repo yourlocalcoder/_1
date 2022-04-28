@@ -111,8 +111,8 @@ a:hover {
   }
   .button a {
       padding: 7.5px 15px;
-      background: teal;
-      border: 1px #006d6d solid;
+      background: rgba(0, 125, 241, 0.753);
+      border: 1px rgba(0, 125, 241, 0.753) solid;
       border-radius:50em;
   }
   .button.secondary a {
@@ -123,8 +123,8 @@ a:hover {
       transition:all .25s;
   }
   .button:not(.secondary) a:hover {
-      background: #006d6d;
-      border-color: #005959;
+      background: rgba(0, 125, 241, 0.753);
+      border-color: rgba(0, 125, 241, 0.753);
   }
   .button.secondary a:hover {
       color: #ddd;
